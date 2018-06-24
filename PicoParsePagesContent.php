@@ -1,11 +1,26 @@
 <?php
+/**
+ * This file is part of Pico. It's copyrighted by the contributors recorded
+ * in the version control history of the file, available from the following
+ * original location:
+ *
+ * <https://github.com/PhrozenByte/pico-parse-pages-content/blob/master/PicoParsePagesContent.php>
+ *
+ * The file was previously part of the project's main repository; the version
+ * control history of the original file applies accordingly, available from
+ * the following original location:
+ *
+ * <https://github.com/picocms/Pico/blob/5cf47e65de66ffc963263a059eb5fe5defadd3e2/plugins/01-PicoParsePagesContent.php>
+ *
+ * SPDX-License-Identifier: MIT
+ * License-Filename: LICENSE
+ */
 
 /**
  * Parses the contents of all pages
  *
- * This plugin exists for backward compatibility and is disabled by default.
- * It gets automatically enabled when {@link PicoDeprecated} is enabled. You
- * can avoid this by calling {@link PicoParsePagesContent::setEnabled()}.
+ * This plugin exists for historic reasons only and should not be used! It is
+ * disabled by default and needs to be enabled manually.
  *
  * This plugin heavily impacts Pico's performance, you should avoid to enable
  * it whenever possible! If you must parse the contents of a page, do this

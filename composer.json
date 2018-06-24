@@ -1,0 +1,31 @@
+{
+    "name": "phrozenbyte/pico-parse-pages-content",
+    "type": "pico-plugin",
+    "abandoned": true,
+    "description": "This is Pico's official PicoParsePagesContent plugin. Pico is a stupidly simple, blazing fast, flat file CMS.",
+    "keywords": [ "pico", "picocms", "picocms-plugin", "pico-parse-pages-content", "utility" ],
+    "homepage": "http://picocms.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "The Pico Community",
+            "homepage": "http://picocms.org/"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/picocms/pico-parse-pages-content/graphs/contributors"
+        }
+    ],
+    "support": {
+        "docs": "http://picocms.org/plugins/parse-pages-content/",
+        "issues": "https://github.com/picocms/pico-parse-pages-content/issues",
+        "source": "https://github.com/picocms/pico-parse-pages-content"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "picocms/pico": "^1.0|^2.0"
+    },
+    "autoload": {
+        "classmap": [ "PicoParsePagesContent.php" ]
+    }
+}
